@@ -1,0 +1,76 @@
+body
+{
+  background-image: url(./images/fond.jpg);
+  background-size: cover;
+}
+h1{
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100px;
+    line-height: 90px;
+    color: white;
+  }
+img
+{
+    position: absolute;
+
+   
+}
+i{
+    font-size: 30px;
+    color:darkgreen;
+    cursor: pointer;
+}
+i:hover
+{
+    color: red;
+}
+.deplacement{
+    border: 2px solid black;
+    width: 100px;
+    border-radius: 15px;
+    position: relative;
+    height: 100px;
+    margin-top: 40px;
+}
+.haut {
+    position: absolute;
+    top:6%;
+    left: 40%;
+}
+.bas {
+    position: absolute;
+    bottom:6%;
+    left: 40%;
+}
+.gauche
+{
+    position: absolute;
+    left: 6%;
+    top:40%;
+}
+.droite
+{
+    position: absolute;
+    right: 6%;
+    top:40%;
+}
+.zoom, .rotation{
+    border: 2px solid black;
+    width: 100px;
+    border-radius: 15px;
+    position: relative;
+    margin-top: 15px; 
+    height: 50px; 
+}
+.zoomPlus, .rotGauche
+{
+    position: absolute;
+    left:15%;
+    top:10px;
+}
+.zoomBas, .rotDroite
+{
+    position: absolute;
+    right:15%;
+    top:10px;
+}
